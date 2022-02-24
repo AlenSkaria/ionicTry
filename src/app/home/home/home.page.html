@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar color="success" class="main">
+    <ion-title>WhatsApp</ion-title>
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon name="search"></ion-icon>
+      </ion-button>
+      <ion-button>
+        <ion-icon name="ellipsis-vertical-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+
+  <ion-segment value="chats">
+    <ion-segment-button value="camera" class="cam">
+      <ion-icon name="camera"></ion-icon>
+    </ion-segment-button>
+
+    <ion-segment-button value="Chats">
+      <ion-label>Chats</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="Status">
+      <ion-label>Status</ion-label>
+    </ion-segment-button>
+
+    <ion-segment-button value="Calls">
+      <ion-label>Calls</ion-label>
+    </ion-segment-button>
+  </ion-segment>
+
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+</ion-content>

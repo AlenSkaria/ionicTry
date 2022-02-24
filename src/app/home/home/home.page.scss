@@ -1,0 +1,15 @@
+.main{
+    padding: 15px 0;
+}
+ion-segment{
+    --background:#128c7e;
+    margin-top: -1px;
+    ion-segment-button{
+        --color-checked: #fff;
+        color: rgb(235, 235, 235);
+    }
+}
+.cam{
+    padding: 0;
+    min-width: 16px;
+}
